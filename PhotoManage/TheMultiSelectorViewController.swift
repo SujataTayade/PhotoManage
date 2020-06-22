@@ -1,9 +1,9 @@
 //
 //  TheMultiSelectorViewController.swift
-//  AlbumDemo
+//  PhotoManage
 //
-//  Created by Weshare on 2018/3/28.
-//  Copyright © 2018年 Weshare. All rights reserved.
+//  Created by Sujata Tayade on 22/06/20.
+//  Copyright © 2020 Sujata Tayade. All rights reserved.
 //
 
 import UIKit
