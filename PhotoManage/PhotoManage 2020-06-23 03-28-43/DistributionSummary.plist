@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PhotoManage.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>131769D2B927C17CA64315A2028E873264C8B319</string>
+				<key>dateExpires</key>
+				<string>12/06/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>GFHU972E9R.com.khojpal.PhotoManage</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>GFHU972E9R</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>GFHU972E9R.com.khojpal.PhotoManage</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>PhotoManage.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>455dde5d-31b0-49ce-8c3d-4530090891cf</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>GFHU972E9R</string>
+				<key>name</key>
+				<string>Affingo Technologies LLP</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

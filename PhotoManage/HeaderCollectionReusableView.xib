@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="headerID" id="U6b-Vx-4bR" customClass="HeaderCollectionReusableView" customModule="PhotoManage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qyV-Jz-MCx">
+                    <rect key="frame" x="0.0" y="1" width="320" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="??" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzj-i1-ytF">
+                    <rect key="frame" x="151.5" y="15.5" width="17" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qyV-Jz-MCx" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="1" id="0FD-OS-QWe"/>
+                <constraint firstAttribute="trailing" secondItem="qyV-Jz-MCx" secondAttribute="trailing" id="7SD-7p-JXZ"/>
+                <constraint firstItem="qyV-Jz-MCx" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="ASJ-3N-ELb"/>
+                <constraint firstItem="lzj-i1-ytF" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="Exr-3m-Hs7"/>
+                <constraint firstItem="lzj-i1-ytF" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="L6N-Sf-kAd"/>
+                <constraint firstAttribute="bottom" secondItem="qyV-Jz-MCx" secondAttribute="bottom" constant="1" id="Mfs-VW-Rxw"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="lzj-i1-ytF" id="DqW-cF-gGm"/>
+            </connections>
+            <point key="canvasLocation" x="140.80000000000001" y="130.43478260869566"/>
+        </collectionReusableView>
+    </objects>
+</document>
